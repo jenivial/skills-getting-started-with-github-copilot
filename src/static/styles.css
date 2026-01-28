@@ -142,3 +142,36 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Add these styles at the end of your existing CSS file */
+
+.participants-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.participants-section p strong {
+  color: #333;
+  font-size: 0.95em;
+}
+
+.participants-list {
+  list-style-type: disc;
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+
+.participants-list li {
+  color: #555;
+  font-size: 0.9em;
+  padding: 4px 0;
+  line-height: 1.4;
+}
+
+.no-participants {
+  color: #999;
+  font-style: italic;
+  font-size: 0.9em;
+  margin: 8px 0 0 0;
+}
